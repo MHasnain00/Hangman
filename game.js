@@ -59,7 +59,7 @@ btn.addEventListener("click",() =>
              scores -=1;
              chances.innerText = `Chances = ${scores}`;
         }
-        if(scores < 0)
+        if(scores <= 0)
         {
             chances.innerText = `You lose! correct was ${correct}`;
             chances.style.color = "red";
