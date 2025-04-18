@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+body {
+    display: flex;
+    background-color: rgb(203, 199, 199);
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    flex-direction: column;
+}
+.title {
+    margin: 20px;
+
+}
+.container {
+    height: 450px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid rgb(163, 161, 161);
+    border-radius: 15px;
+    padding: 10px;
+}
+.chances {
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+}
+.UserChoice {
+    text-align: center;
+}
+
+input {
+    height: 45px;
+    margin-top: 10px;
+    width: 90%;
+    border: 2px solid rgb(163, 161, 161);
+    border-radius: 15px;
+    background-color: rgb(241, 238, 238);
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+}
+.alpha {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.alpha i {
+    font-size: xx-large;
+}
+button {
+    color: white;
+    background-color: rgba(0, 105, 186);
+    height: 40px;
+    width: 90%;
+    margin-top: 10px;
+    border: 2px solid rgb(163, 161, 161);
+    border-radius: 10px;
+}
